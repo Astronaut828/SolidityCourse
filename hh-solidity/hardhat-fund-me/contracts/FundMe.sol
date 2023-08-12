@@ -9,7 +9,7 @@ error FundMe__NotOwner();
 
 // Interfaces, Libraries
 
-// Contracts
+// Contracts / NatSpec
 /** @title A contract for crowd funding
  *  @author Astronaut828
  *  @notice This contract is to demo a sample funding contract

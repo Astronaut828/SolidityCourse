@@ -28,17 +28,17 @@ module.exports = {
     },
     // solidity: "0.8.8",
     solidity: {
-        compilers: [{ version: "0.6.6" }, { version: "0.8.8" }],
+        compilers: [{ version: "0.8.8" }, { version: "0.6.6" }],
     },
     etherscan: {
         apiKey: ETHERSCAN_API_KEY,
     },
     gasReporter: {
-        enabled: true, // >true< to enable the report
+        enabled: false, // >true< to enable the report
         outputFile: "gas-report.txt",
         noColors: true,
         currency: "USD",
-        // coinmarketcap: COINMARKETCAP_API_KEY,
+        coinmarketcap: COINMARKETCAP_API_KEY,
         token: "MATIC",
     },
     namedAccounts: {
