@@ -20,12 +20,12 @@ contract FundMe {
     using PriceConverter for uint256;
 
     // State Variables
-    mapping(address => uint256) public addressToAmountFunded;
-    address[] public funders;
+    mapping(address => uint256) private addressToAmountFunded;
+    address[] private funders;
     // Could we make this constant?  /* hint: no! We should make it immutable! */
-    address public immutable i_owner;
+    address private immutable i_owner;
     uint256 public constant MINIMUM_USD = 50 * 10 ** 18;
-    AggregatorV3Interface public priceFeed;
+    AggregatorV3Interface private priceFeed;
 
     // Modifiers
     modifier onlyOwner() {
@@ -38,7 +38,7 @@ contract FundMe {
     //// constructor
     //// receive
     //// fallback
-    //// external
+    //// externals
     //// public
     //// internal
     //// private
@@ -103,5 +103,25 @@ contract FundMe {
             value: address(this).balance
         }("");
         require(callSuccess, "Call failed");
+    }
+
+    // view / pure
+
+    function getOwner() public view returns (address) {
+        return i_owner;
+    }
+
+    function getFunders(uint256 index) public view returns (address) {
+        return funders[index];
+    }
+
+    function getAddressToAmountFunded(
+        address funder
+    ) public view returns (uint256) {
+        return addressToAmountFunded[funder];
+    }
+
+    function getPriceFeed() public view returns (AggregatorV3Interface) {
+        return priceFeed;
     }
 }

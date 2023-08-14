@@ -33,7 +33,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     } else {
         ethUsdPriceFeedAddress = networkConfig[chainId]["ethUsdPriceFeed"]
     }
-    
+
     const fundMe = await deploy("FundMe", {
         from: deployer,
         args: [ethUsdPriceFeedAddress],

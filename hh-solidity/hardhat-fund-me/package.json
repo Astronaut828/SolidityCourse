@@ -1,5 +1,6 @@
 {
-  "name": "hardhat-fund-me-fcc",
+  "name": "hardhat-fund-me",
+  "author": "Astronaut828",
   "license": "MIT",
   "devDependencies": {
     "@chainlink/contracts": "^0.3.1",

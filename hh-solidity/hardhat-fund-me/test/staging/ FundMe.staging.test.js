@@ -20,7 +20,7 @@ developmentChains.includes(network.name)
               await withdrawTxResponse.wait(1)
 
               const endingFundMeBalance = await ethers.provider.getBalance(
-                  fundMe.address,
+                  fundMe.getAddress(),
               )
               console.log(
                   endingFundMeBalance.toString() +
