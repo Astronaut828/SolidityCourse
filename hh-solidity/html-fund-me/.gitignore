@@ -1,0 +1,5 @@
+.env
+.encryptedKey.json
+node_modules
+dist
+ethers-5.7.esm.min.js
