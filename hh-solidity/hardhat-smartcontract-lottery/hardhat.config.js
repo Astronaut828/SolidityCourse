@@ -1,12 +1,11 @@
-//const { hardhatArguments } = require("hardhat")
+require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-etherscan");
+require("hardhat-deploy");
+require("solidity-coverage");
+require("hardhat-gas-reporter");
+require("hardhat-contract-sizer");
+require("dotenv").config();
 
-require("@nomiclabs/hardhat-waffle")
-require("@nomiclabs/hardhat-etherscan")
-require("hardhat-deploy")
-require("solidity-coverage")
-require("hardhat-gas-reporter")
-require("hardhat-contract-sizer")
-require("dotenv").config()
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL || "https://eth-sepolia"
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "0xkey"
@@ -23,6 +22,7 @@ module.exports = {
         },
         localhost: {
             chainId: 31337,
+            blockConfirmations: 1,
         },
         sepolia: {
             url: SEPOLIA_RPC_URL,
@@ -31,6 +31,13 @@ module.exports = {
             chainId: 11155111,
             blockConfirmations: 6,
         },
+    },
+    gasReporter: {
+        enabled: false, // >true< to enable the report
+        outputFile: "gas-report.txt",
+        noColors: true,
+        currency: "USD",
+        coinmarketcap: COINMARKETCAP_API_KEY,
     },
     solidity: "0.8.7",
     namedAccounts: {
