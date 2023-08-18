@@ -12,7 +12,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     let vrfCoordinatorV2Address, subscriptionId
 
     if (chainId == 31337) {
-        const vrfCoordinatorV2Mock = await ethers.getContractAt("VRFCoordinatorV2Mock")
+        const vrfCoordinatorV2Mock = await ethers.getContractAt("VRFCoordinatorV2Mock", deployer)
         vrfCoordinatorV2Address = await vrfCoordinatorV2Mock.getAddress()
         const transactionResponse = await vrfCoordinatorV2Mock.createSubscription()
         const transactionReceipt = await transactionResponse.wait(1)
@@ -25,18 +25,18 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
         subscriptionId = networkConfig[chainId]["subscriptionId"]
     }
 
-    const entranceFee = networkConfig[chainId]["entranceFee"]
+    const raffleEntranceFee = networkConfig[chainId]["raffleEntranceFee"]
     const gasLane = networkConfig[chainId]["gasLane"]
     const callbackGasLimit = networkConfig[chainId]["callbackGasLimit"]
-    const interval = networkConfig[chainId]["interval"]
+    const keepersUpdateInterval = networkConfig[chainId]["keepersUpdateInterval"]
 
     const args = [
         vrfCoordinatorV2Address,
-        entranceFee,
+        raffleEntranceFee,
         gasLane,
         subscriptionId,
         callbackGasLimit,
-        interval,
+        keepersUpdateInterval,
     ]
     const raffle = await deploy("Raffle", {
         from: deployer,
