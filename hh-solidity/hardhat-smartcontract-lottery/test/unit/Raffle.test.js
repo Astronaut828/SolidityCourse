@@ -52,7 +52,7 @@ const { assert, expect } = require("chai")
                   await raffle.enterRaffle({ value: raffleEntranceFee })
                   await network.provider.send("evm_increaseTime", [Number(keepersUpdateInterval) + 1])
                   await network.provider.send("evm_mine", [])
-                  await raffle.performUpkeep([])
+                  await raffle.performUpkeep("0x")
                   await expect(
                       raffle.enterRaffle({ value: raffleEntranceFee })).to.be.reverted
               })
@@ -68,7 +68,7 @@ const { assert, expect } = require("chai")
                   await raffle.enterRaffle({ value: raffleEntranceFee })
                   await network.provider.send("evm_increaseTime", [Number(keepersUpdateInterval) + 1])
                   await network.provider.send("evm_mine", [])
-                  await raffle.performUpkeep(([]))
+                  await raffle.performUpkeep(("0x"))
                   const raffleState = await raffle.getRaffleState()
                   const { upkeepNeeded } = await raffle.checkUpkeep.staticCall("0x")
                   assert.equal(raffleState.toString(), "1")
@@ -94,7 +94,7 @@ const { assert, expect } = require("chai")
                   await raffle.enterRaffle({ value: raffleEntranceFee })
                   await network.provider.send("evm_increaseTime", [Number(keepersUpdateInterval) + 1])
                   await network.provider.send("evm_mine", [])
-                  assert(await raffle.performUpkeep(([])))
+                  assert(await raffle.performUpkeep(("0x")))
               })
               it("reverts is checkupkeep is false", async function () {
                   await expect(raffle.performUpkeep("0x")).to.be.reverted
@@ -103,7 +103,7 @@ const { assert, expect } = require("chai")
                   await raffle.enterRaffle({ value: raffleEntranceFee })
                   await network.provider.send("evm_increaseTime", [Number(keepersUpdateInterval) + 1])
                   await network.provider.send("evm_mine", [])
-                  const txResponse = await raffle.performUpkeep(([]))
+                  const txResponse = await raffle.performUpkeep(("0x"))
                   const txReceipt = await txResponse.wait(1)
                   const requestId = txReceipt.events[1].args.requestedId
                   const raffleState = await raffle.getRaffleState()
@@ -176,7 +176,7 @@ const { assert, expect } = require("chai")
 
                   // kicking off the event by mocking the chainlink keepers and vrf coordinator
                   try {
-                      const tx = await raffle.performUpkeep(([]))
+                      const tx = await raffle.performUpkeep(("0x"))
                       const txReceipt = await tx.wait(1)
                       startingBalance = await accounts[2].getBalance()
                       await vrfCoordinatorV2Mock.fulfillRandomWords(
