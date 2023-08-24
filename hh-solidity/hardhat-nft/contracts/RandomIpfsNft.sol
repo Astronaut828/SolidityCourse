@@ -9,7 +9,7 @@ import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
 import "hardhat/console.sol";
 
 error RandomIpfsNft__RangeOutOfBounds();
-error RandomIpfsNft__NeedMoreEthSent();
+error RandomIpfsNft__NeedMoreETHSent();
 error RandomIpfsNft__TransferFailed();
 
 contract RandomIpfsNFt is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
@@ -59,7 +59,7 @@ contract RandomIpfsNFt is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
 
     function requestNft() public payable returns (uint256 requestId) {
         if (msg.value < i_mintFee) {
-            revert RandomIpfsNft__NeedMoreEthSent();
+            revert RandomIpfsNft__NeedMoreETHSent();
         }
         requestId = i_vrfCoordinator.requestRandomWords(
             i_gasLane,
@@ -105,6 +105,8 @@ contract RandomIpfsNFt is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         }
         revert RandomIpfsNft__RangeOutOfBounds();
     }
+
+
 
     function getChanceArray() public pure returns (uint256[3] memory) {
         return [10, 40, MAX_CHANCE_VALUE];

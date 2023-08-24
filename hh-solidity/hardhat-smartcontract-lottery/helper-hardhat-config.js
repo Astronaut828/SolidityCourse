@@ -20,7 +20,6 @@ const networkConfig = {
         keepersUpdateInterval: "30",
         raffleEntranceFee: ethers.parseEther("0.01"), // 0.01 ETH
         callbackGasLimit: "500000", // 500,000 gas
-        keepersUpdateInterval: "30",
     },
 }
 
