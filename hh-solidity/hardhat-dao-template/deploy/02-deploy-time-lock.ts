@@ -6,6 +6,7 @@ const deployTimeLock: DeployFunction = async function (hre: HardhatRuntimeEnviro
     const { getNamedAccounts, deployments } = hre
     const { deploy, log } = deployments
     const { deployer } = await getNamedAccounts()
+    
     log("----------------------------------------------------")
     log("Deploying TimeLock ...")
     const args = [MIN_DELAY, [], [], deployer]

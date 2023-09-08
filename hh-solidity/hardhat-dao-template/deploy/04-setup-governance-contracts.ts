@@ -9,6 +9,7 @@ const deploySetupContract: DeployFunction = async function (hre: HardhatRuntimeE
 
     const timeLock = await ethers.getContract("TimeLock", deployer)
     const governor = await ethers.getContract("GovernorContract", deployer)
+    
     log("----------------------------------------------------")
     log("Setting up Roles ...")
 

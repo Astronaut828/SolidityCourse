@@ -6,8 +6,10 @@ const deployGovernorContract: DeployFunction = async function (hre: HardhatRunti
     const { getNamedAccounts, deployments } = hre
     const { deploy, log, get } = deployments
     const { deployer } = await getNamedAccounts()
+
     const governanceToken = await get("GovernanceToken")
     const timeLock = await get("TimeLock")
+    
     log("----------------------------------------------------")
     log("Deploying Governor Contract ...")
     const governorContract = await deploy("GovernorContract", {
