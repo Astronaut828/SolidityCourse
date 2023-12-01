@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Lesson 7: Hardhat Fund Me
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Development of the "Fund Me" project using Hardhat, with a focus on the following topics:
 
-Try running some of the following tasks:
+**Key Topics Covered:**
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+- Introduction to Hardhat Setup for "Fund Me"
+- Linting with Eslint and Solhint
+- Continued Setup for "Fund Me"
+- Importing from NPM and Hardhat Deployment
+- Mocking with Aave and Chainlink
+- TypeScript Integration
+- Solidity Style Guide and NatSpec
+- Unit Testing, Fixtures, and Debugging
+- Gas Optimization Strategies and Storage Knowledge
+- Chainlink Integration and Style Guide
+- Storage Review and Staging Tests
+- Running Scripts on a Local Node and GitHub Usage
