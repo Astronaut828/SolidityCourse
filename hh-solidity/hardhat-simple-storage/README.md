@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# Lesson 6: Hardhat Simple Storage
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Ethereum smart contract development with Hardhat, covering various aspects:
 
-Try running some of the following tasks:
+**Key Topics Covered:**
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+- Introduction to Hardhat Setup
+- Troubleshooting Hardhat Setup
+- Deploying SimpleStorage from Hardhat
+- Networks in Hardhat
+- Programmatic Verification
+- Interacting with Contracts in Hardhat
+- Artifacts Troubleshooting
+- Custom Hardhat Tasks
+- Hardhat Localhost Node
+- The Hardhat Console
+- Hardhat Tests (Mocha Style, Chai, Waffle)
+- Hardhat Gas Reporter
+- Solidity Coverage
+- TypeScript Integration (Typechain)
