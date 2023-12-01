@@ -1,35 +1,19 @@
-### This is my repo for the Blockchain, Solidity, and Full Stack Web3 Development with JavaScript course by Patrick Collins / FreeCodeCamp.org
+# Blockchain, Solidity, and Full Stack Web3 Development with JavaScript Course Repository
 
-## Full course at: https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=30017s
+This is my repository for the "Blockchain, Solidity, and Full Stack Web3 Development with JavaScript" course by Patrick Collins on FreeCodeCamp.org.
 
-Course Contents<br>
-Lesson 0: Welcome To Blockchain<br>
-Lesson 1: Blockchain Basics<br>
-Lesson 2: Welcome to Remix! Simple Storage<br>
-Lesson 3: Remix Storage Factory<br>
-Lesson 4: Remix Fund Me<br>
-Lesson 5: Ethers.js Simple Storage<br>
-Lesson 6: Hardhat Simple Storage<br>
-Lesson 7: Hardhat Fund Me<br>
-Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)<br>
-Lesson 9: Hardhat Smart Contract Lottery<br>
-Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)<br>
-Lesson 11: Hardhat Starter Kit<br>
-Lesson 12: Hardhat ERC20s<br>
-Lesson 13: Hardhat DeFi & Aave<br>
-Lesson 14: Hardhat NFTs <br>
-Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)<br>
-Lesson 16: Hardhat Upgrades<br>
-Lesson 17: Hardhat DAOs<br>
-Lesson 18: Security & Auditing <br>
-<br>
-✏️ Course developed by Patrick Collins.
+## Course Contents
 
+- Lesson 5: Ethers.js Simple Storage [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/ethers-simple-storage)
+- Lesson 6: Hardhat Simple Storage [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-simple-storage)
+- Lesson 7: Hardhat Fund Me [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-fund-me)
+- Lesson 8: HTML / JavaScript Fund Me (Full Stack / Front End) [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/html-fund-me)
+- Lesson 9: Hardhat Smart Contract Lottery [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-smartcontract-lottery)
+- Lesson 12: Hardhat ERC20s [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhart-ERC20)
+- Lesson 13: Hardhat DeFi & Aave [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-defi)
+- Lesson 14: Hardhat NFTs [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-nft)
+- Lesson 16: Hardhat Upgrades [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-upgrades)
+- Lesson 17: Hardhat DAOs [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-dao-template)
+- Lesson 18: Security & Auditing [Code / Info](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-security)
 
-💻 Code, resources, and support forum: 
-https://github.com/smartcontractkit/full-blockchain-solidity-course-js
-
-"This course will give you a full introduction into all of the core concepts related to blockchain, smart contracts, Solidity, ERC20s, full-stack Web3 dapps, decentralized finance (DeFi), JavaScript, TypeScript, Chainlink, Ethereum, upgradable smart contracts, DAOs, the graph, moralis, aave, IPFS, and more. Follow along with the videos and you'll be a blockchain wizard in no time!"
-
-
-"ALL Private Keys used in this repo are from a Burner wallet and Burner Accounts"
+**Full course at:** [Watch here](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=30017s)
