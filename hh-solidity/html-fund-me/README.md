@@ -1,51 +1,14 @@
-# Lesson 5: Ethers.js Simple Storage
+# Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)
 
-Using Ethers.js for interacting with Ethereum smart contracts. Here's what you can expect to find in the repository:
-  
+Development of a full-stack web application for fundraising, with an emphasis on:
+
 **Key Topics Covered:**
 
-- Effective Debugging Strategies & Getting Help
-  - Tinkering and isolating problems
-  - Google and web search for exact issues
-  - Utilizing GitHub discussions and forums
-  - Formatting questions using Markdown
+- Understanding how websites interact with Web3 wallets and connecting smart contracts to MetaMask
+- HTML setup and live server usage
+- JavaScript organization (ES6 vs Node.js)
+- Sending transactions from a website and dealing with MetaMask RPC errors
+- Listening for events and completed transactions
+- Input forms, reading from the blockchain, and the withdraw function
 
-- Installation & Setup
-  - Setting up Visual Studio Code, NodeJS, and Git
-  - Introduction to terminals and keybindings
-  - Configuring for Mac, Linux, and Windows
 
-- Local Development Introduction
-  - Helpful tips and shortcuts
-  - Creating a project directory and opening in VSCode
-
-- Optional Javascript Crash Courses
-  - Recommended NodeJS and Javascript courses
-
-- Importing SimpleStorage.sol
-  - Solidity and Hardhat VSCode extension setup
-  - Code formatting guidelines
-
-- Asynchronous Programming in Javascript
-  - Understanding asynchronous programming with async/await and Promises
-
-- Compiling Solidity
-  - Installing solc-js and compiling Solidity contracts
-  - Introduction to Ganache and networks
-
-- Introduction to Ethers.js
-  - Getting familiar with Ethers.js library
-  - Exploring transaction overrides, receipts, and interactions with contracts
-
-- Environment Variables and Private Key Management
-  - Using dotenv and managing private keys securely
-
-- Optional Prettier Formatting
-  - Prettier code formatting configuration
-
-- Deploying to Testnet or Mainnet
-  - Deploying contracts using Alchemy
-  - Verifying on block explorers
-
-- Special Guest: Albert Hu
-  - Insights on the Mempool and Alchemy Dashboard
