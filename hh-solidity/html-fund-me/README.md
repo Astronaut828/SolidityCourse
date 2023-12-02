@@ -10,5 +10,3 @@ Development of a full-stack web application for fundraising, with an emphasis on
 - Sending transactions from a website and dealing with MetaMask RPC errors
 - Listening for events and completed transactions
 - Input forms, reading from the blockchain, and the withdraw function
-
-
