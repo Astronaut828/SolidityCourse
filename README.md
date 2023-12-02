@@ -16,7 +16,7 @@ Development of the "Fund Me" project using Hardhat, covering setup, linting, dep
 - Lesson 8: HTML / JavaScript Fund Me (Full Stack / Front End) -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/html-fund-me)<br>
 Development of a full-stack web application for fundraising using HTML and JavaScript, focusing on connecting smart contracts to MetaMask, HTML setup, JavaScript organization, transaction handling, Metamask error handling, event listening, and user input forms.
   
-- Lesson 9: Hardhat Smart Contract Lottery [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-smartcontract-lottery)<br>
+- Lesson 9: Hardhat Smart Contract Lottery -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-smartcontract-lottery)<br>
 Building a smart contract lottery system using Hardhat, covering setup, custom Solidity errors, events, Chainlink VRF integration, Chainlink Keepers, deployment, unit testing, and special debugging techniques.
   
 - Lesson 12: Hardhat ERC20s [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhart-ERC20)<br>
