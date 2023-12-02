@@ -6,8 +6,7 @@ Gain comprehensive knowledge about NFTs (Non-Fungible Tokens), covering a wide r
 **Key Topics Covered:**
 
 1. What is an NFT?
-   - Video
-   - Optional: All on Chain SVG NFT
+   - All on Chain SVG NFT
    - EIP-721
 
 2. Code Overview
@@ -35,7 +34,6 @@ Gain comprehensive knowledge about NFTs (Non-Fungible Tokens), covering a wide r
    - Tests
 
 6. Dynamic SVG On-Chain NFT
-   - Patrick's Original Video
    - What is an SVG?
      - SVG Tutorial
      - On-Chain SVG Example
