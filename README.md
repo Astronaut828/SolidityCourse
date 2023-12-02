@@ -22,7 +22,7 @@ Building a smart contract lottery system using Hardhat, covering setup, custom S
 - Lesson 12: Hardhat ERC20s -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhart-ERC20)<br>
 ERC20 tokens in Ethereum, covering their definition, the Ethereum Improvement Proposal (EIP) standards, ERC-20, ERC-677, EIP-777, and the manual creation of ERC20 tokens as well as using OpenZeppelin for ERC20 token creation.
 
-- Lesson 13: Hardhat DeFi & Aave [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-defi)<br>
+- Lesson 13: Hardhat DeFi & Aave -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-defi)<br>
 DeFi (Decentralized Finance) and Aave, covering the fundamentals of DeFi, an introduction to Aave, programmatic borrowing and lending with assets like DAI, Uniswap, and WETH, forking the mainnet, depositing and borrowing from Aave, health factors, risk parameters, and repaying using Aave, along with visualizing transactions and aTokens.
   
 - Lesson 14: Hardhat NFTs [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-nft)<br>
