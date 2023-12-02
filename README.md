@@ -4,7 +4,7 @@ This is my repository for the "Blockchain, Solidity, and Full Stack Web3 Develop
 
 ## Repo Contents
 
-- Lesson 5: Ethers.js Simple Storage [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/ethers-simple-storage)<br>
+- Lesson 5: Ethers.js Simple Storage -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/ethers-simple-storage)<br>
  Ethers.js Simple Storage focuses on using Ethers.js to interact with Ethereum smart contracts, covering debugging strategies, setup, contract importing, asynchronous programming, compiling Solidity, Ethers.js usage, private key management, deployment, and Mempool insights.
 
 - Lesson 6: Hardhat Simple Storage [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-simple-storage)<br>
