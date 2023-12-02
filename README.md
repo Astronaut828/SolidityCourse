@@ -2,7 +2,7 @@
 
 This is my repository for the "Blockchain, Solidity, and Full Stack Web3 Development with JavaScript" course by Patrick Collins on FreeCodeCamp.org.
 
-## Course Contents
+## Repo Contents
 
 - Lesson 5: Ethers.js Simple Storage [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/ethers-simple-storage)<br>
  Ethers.js Simple Storage focuses on using Ethers.js to interact with Ethereum smart contracts, covering debugging strategies, setup, contract importing, asynchronous programming, compiling Solidity, Ethers.js usage, private key management, deployment, and Mempool insights.
