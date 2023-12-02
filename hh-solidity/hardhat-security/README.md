@@ -2,13 +2,8 @@
 
 This part of the course is to help understand basic security and some fundamentals of auditing.
 
-*[⌨️ (31:28:32) Lesson 18: Security & Auditing ](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=113312s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
 - [Hardhat Security](#hardhat-security)
 - [What is an Audit?](#what-is-an-audit)
-- [Help your auditors!](#help-your-auditors)
 - [Process](#process)
 - [Resources](#resources)
   - [Tools](#tools)
@@ -16,40 +11,10 @@ This part of the course is to help understand basic security and some fundamenta
   - [Blogs](#blogs)
   - [Audit Examples:](#audit-examples)
   - [Articles](#articles)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [No Typescript Support](#no-typescript-support)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Slither](#slither)
-  - [Echidna](#echidna)
-- [Linting](#linting)
-- [Formatting](#formatting)
-- [Thank you!](#thank-you)
-
-This project is apart of the Hardhat FreeCodeCamp video.
 
 # What is an Audit?
 
 An audit is a security focused code review for looking for issues with your code. 
-
-# Help your auditors!
-
-When writing good code, you 100% need to follow these before sending you code to an audit.
-
-[Tweet from legendary security expert Tincho](https://twitter.com/tinchoabbate/status/1400170232904400897)
-
--   Add comments
-    -   This will help your auditors understand what you're doing.
--   Use [natspec](https://docs.soliditylang.org/en/v0.8.11/natspec-format.html)
-    -   Document your functions. DOCUMENT YOUR FUNCTIONS.
--   Test
-    -   If you don't have tests, and test coverage of all your functions and lines of code, you shouldn't go to audit. If your tests don't pass, don't go to audit.
--   Be ready to talk to your auditors
-    -   The more communication, the better.
--   Be prepared to give them plenty of time.
-    -   They literally pour themselves over your code.
 
 # Process
 
