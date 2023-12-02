@@ -17,4 +17,4 @@ Ethereum smart contract development with Hardhat, covering various aspects:
 - Hardhat Tests (Mocha Style, Chai, Waffle)
 - Hardhat Gas Reporter
 - Solidity Coverage
-- TypeScript Integration (Typechain)
+- TypeScript Integration
