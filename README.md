@@ -10,7 +10,7 @@ This is my repository for the "Blockchain, Solidity, and Full Stack Web3 Develop
 - Lesson 6: Hardhat Simple Storage -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-simple-storage)<br>
 Usage of Hardhat for Ethereum smart contract development, covering topics such as setup, deployment, network configuration, interacting with contracts, custom tasks, testing, gas reporting, Solidity coverage, and TypeScript integration.
   
-- Lesson 7: Hardhat Fund Me [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-fund-me)<br>
+- Lesson 7: Hardhat Fund Me -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-fund-me)<br>
 Development of the "Fund Me" project using Hardhat, covering setup, linting, deployment, mocking, TypeScript, Solidity style guides, testing, debugging, gas optimizations, Chainlink integration, storage review, staging tests, and GitHub usage.
 
 - Lesson 8: HTML / JavaScript Fund Me (Full Stack / Front End) [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/html-fund-me)<br>
