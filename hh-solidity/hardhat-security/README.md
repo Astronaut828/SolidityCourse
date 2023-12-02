@@ -51,8 +51,6 @@ When writing good code, you 100% need to follow these before sending you code to
 -   Be prepared to give them plenty of time.
     -   They literally pour themselves over your code.
 
-> "At this time, there are 0 good auditors that can get you an audit in under a week. If an auditor says they can do it in that time frame, they are either doing you a favor or they are shit. " - Patrick Collins, March 4th, 2022
-
 # Process
 
 An auditors process looks like this:
@@ -122,20 +120,3 @@ PRs welcome to improve the list.
 -   [Chainlink X Certik Blog on Security](https://www.certik.com/resources/blog/technology/top-10-defi-security-best-practices)
     -   I helped write this. 😊
 -   [More attacks](https://consensys.github.io/smart-contract-best-practices/attacks/denial-of-service/)
-
-# Getting Started
-
-## Requirements
-
--   [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-    -   You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
--   [Nodejs](https://nodejs.org/en/)
-    -   You'll know you've installed nodejs right if you can run:
-        -   `node --version` and get an ouput like: `vx.x.x`
--   [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
-    -   You'll know you've installed yarn right if you can run:
-        -   `yarn --version` and get an output like: `x.x.x`
-        -   You might need to install it with npm
--   [Docker](https://docs.docker.com/get-docker/)
-    -   You'll know you've installed docker right if you can run:
-    -   `docker --version` and get an ouput like `Docker version xx.xx.xx, build xxxxx`
