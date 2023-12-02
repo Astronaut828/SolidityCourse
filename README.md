@@ -19,7 +19,7 @@ Development of a full-stack web application for fundraising using HTML and JavaS
 - Lesson 9: Hardhat Smart Contract Lottery -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-smartcontract-lottery)<br>
 Building a smart contract lottery system using Hardhat, covering setup, custom Solidity errors, events, Chainlink VRF integration, Chainlink Keepers, deployment, unit testing, and special debugging techniques.
   
-- Lesson 12: Hardhat ERC20s [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhart-ERC20)<br>
+- Lesson 12: Hardhat ERC20s -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhart-ERC20)<br>
 ERC20 tokens in Ethereum, covering their definition, the Ethereum Improvement Proposal (EIP) standards, ERC-20, ERC-677, EIP-777, and the manual creation of ERC20 tokens as well as using OpenZeppelin for ERC20 token creation.
 
 - Lesson 13: Hardhat DeFi & Aave [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-defi)<br>
