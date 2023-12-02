@@ -19,7 +19,7 @@ Using Ethers.js for interacting with Ethereum smart contracts. Here's what you c
   - Helpful tips and shortcuts
   - Creating a project directory and opening in VSCode
 
-- Optional Javascript Crash Courses
+- Javascript Crash Courses
   - Recommended NodeJS and Javascript courses
 
 - Importing SimpleStorage.sol
@@ -40,7 +40,7 @@ Using Ethers.js for interacting with Ethereum smart contracts. Here's what you c
 - Environment Variables and Private Key Management
   - Using dotenv and managing private keys securely
 
-- Optional Prettier Formatting
+- Prettier Formatting
   - Prettier code formatting configuration
 
 - Deploying to Testnet or Mainnet
