@@ -31,7 +31,7 @@ NFTs (Non-Fungible Tokens), including their definition, EIP-721 standard, code o
 - Lesson 16: Hardhat Upgrades -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-upgrades)<br>
 Upgradable smart contracts in-depth, covering various types of upgrades, including parameter, proxy, metamorphic, and transparent upgrades, and learn about important concepts such as delegatecall and EIP 1967.
 
-- Lesson 17: Hardhat DAOs [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-dao-template)<br>
+- Lesson 17: Hardhat DAOs -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-dao-template)<br>
 Decentralized Autonomous Organizations (DAOs), learning what they are, how to build one, and examining related concepts and tools.
 
 - Lesson 18: Security & Auditing [Code / Info](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-security)<br>
