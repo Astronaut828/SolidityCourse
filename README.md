@@ -28,7 +28,7 @@ DeFi (Decentralized Finance) and Aave, covering the fundamentals of DeFi, an int
 - Lesson 14: Hardhat NFTs -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-nft)<br>
 NFTs (Non-Fungible Tokens), including their definition, EIP-721 standard, code overview, setting up NFTs with Hardhat, creating basic and random IPFS NFTs, mapping Chainlink VRF requests, generating rare NFTs, handling token images and URIs with Pinata (NFT Storage), and creating dynamic SVG on-chain NFTs with advanced encoding techniques.
 
-- Lesson 16: Hardhat Upgrades [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-upgrades)<br>
+- Lesson 16: Hardhat Upgrades -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-upgrades)<br>
 Upgradable smart contracts in-depth, covering various types of upgrades, including parameter, proxy, metamorphic, and transparent upgrades, and learn about important concepts such as delegatecall and EIP 1967.
 
 - Lesson 17: Hardhat DAOs [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-dao-template)<br>
