@@ -1,4 +1,4 @@
-# Blockchain, Solidity, and Full Stack Web3 Development with JavaScript Course Repository
+# Blockchain, Solidity, and Full Stack Web3 Development with JavaScript - Course Repository
 
 This is my repository for the "Blockchain, Solidity, and Full Stack Web3 Development with JavaScript" course by Patrick Collins on FreeCodeCamp.org.
 
