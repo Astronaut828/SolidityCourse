@@ -34,7 +34,7 @@ Upgradable smart contracts in-depth, covering various types of upgrades, includi
 - Lesson 17: Hardhat DAOs -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-dao-template)<br>
 Decentralized Autonomous Organizations (DAOs), learning what they are, how to build one, and examining related concepts and tools.
 
-- Lesson 18: Security & Auditing [Code / Info](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-security)<br>
+- Lesson 18: Security & Auditing -> [Code Folder / Info](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-security)<br>
 Security & Auditing, the critical aspects of security and auditing in Ethereum smart contract development, covering tools like Slither, Echidna, and best practices while exploring potential vulnerabilities and attacks.
 
 **Full course at:** [Watch here](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=30017s)
