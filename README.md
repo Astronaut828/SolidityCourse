@@ -25,8 +25,8 @@ ERC20 tokens in Ethereum, covering their definition, the Ethereum Improvement Pr
 - Lesson 13: Hardhat DeFi & Aave -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-defi)<br>
 DeFi (Decentralized Finance) and Aave, covering the fundamentals of DeFi, an introduction to Aave, programmatic borrowing and lending with assets like DAI, Uniswap, and WETH, forking the mainnet, depositing and borrowing from Aave, health factors, risk parameters, and repaying using Aave, along with visualizing transactions and aTokens.
   
-- Lesson 14: Hardhat NFTs [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-nft)<br>
-NFTs (Non-Fungible Tokens), including their definition, EIP-721 standard, code overview, setting up NFTs with Hardhat, creating basic and random IPFS NFTs, mapping Chainlink VRF requests, generating rare NFTs, handling token images and URIs with Pinata, and creating dynamic SVG on-chain NFTs with advanced encoding techniques.
+- Lesson 14: Hardhat NFTs -> [Code Folder](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-nft)<br>
+NFTs (Non-Fungible Tokens), including their definition, EIP-721 standard, code overview, setting up NFTs with Hardhat, creating basic and random IPFS NFTs, mapping Chainlink VRF requests, generating rare NFTs, handling token images and URIs with Pinata (NFT Storage), and creating dynamic SVG on-chain NFTs with advanced encoding techniques.
 
 - Lesson 16: Hardhat Upgrades [Code](https://github.com/Astronaut828/SolidityCourse/tree/main/hh-solidity/hardhat-upgrades)<br>
 Upgradable smart contracts in-depth, covering various types of upgrades, including parameter, proxy, metamorphic, and transparent upgrades, and learn about important concepts such as delegatecall and EIP 1967.
